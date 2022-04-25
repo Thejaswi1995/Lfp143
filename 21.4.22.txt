@@ -1,0 +1,44 @@
+Mentors Fellowship8:26 PM
+1
+12
+123
+1234
+12345
+1234
+123
+12
+1
+
+
+1
+12
+123
+1234
+12345
+
+
+
+          *
+         * *
+        * * *
+       * * * *
+        * * *
+         * *
+          *
+
+
+*****          
+*****
+*****
+*****
+*****  
+Mentors Fellowship8:27 PM
+Data types and variables 
+
+https://www.javatpoint.com/java-data-types
+
+geeksforgeeks
+
+stackoverflow-for errors
+
+
