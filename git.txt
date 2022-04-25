@@ -1,0 +1,16 @@
+git config --global user.name "Thejaswi"
+
+git config --global user.email thejaswirl187@gmail.com
+
+git commit -m "added abc.txt file" abc.txt
+
+git push -u origin main
+
+6549-E139
+
+git init
+git add .
+git status
+git commit -m "UC Problems"
+git remote add origin 'https://github.com/Thejaswi1995/Day-9-UC'
+git push -u origin master

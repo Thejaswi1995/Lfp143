@@ -1,0 +1,48 @@
+Hello Everyone, Please go through these commands
+
+find -name *.txt  -  find all the files with .txt extensions
+find -size +5M - find the files which are more than 5mb
+find -name *.pdf  - find all the files with .pdf extensions
+find -size +5M -type f - find all the files which are more than 5mb
+find -size +5M -type f -name *.pdf - find all the files which are more than 5mb of pdf extension
+find -size +5M -type f | grep .pdf - find all the files which of pdf extension
+grep CAPTAIN data.csv --> { grep "content you are searching" and "Filename" } - check for the content you
+have typed in that particular file { here it is searching in data.csv file for captain }
+grep -i capatin data.csv - searches the files in lower case
+grep -ir capatin - searches the file for lowercase recurssion
+ls -p | grep / - lists folders in that current directory
+ls -p | grep -v / - lists files in that current directory
+env  - environment
+env | grep -i user - files from user directory
+env | grep -i home  -  files from home directory
+echo Hello Dan | awk '{$1="Ali"} {print $0}'
+echo Hello Dan | awk '{$2="Ali"} {print $0}'
+BEGIN - preprocessing and END  - postprocessing
+cat data.csv | grep -i captain | awk '{sum+=$4} END {print sum/NR}'  - finding the average
+ cat data.csv | grep -i executive | awk '{print $2 $4}' - finds the data of those columns
+ cat data.csv | grep -i chief | awk '{print $2 $4}' - same as above
+cat data.csv | grep -i captain - finds the data of captain
+  581  echo Hello Dan
+  582  echo Hello Tina
+  583  echo Hello Dan | awk '{$2="Ali"} {print $0}'
+  584  echo Hello Dan | awk '{$1="Ali"} {print $0}'
+  585  echo Hello Dan | awk '{$2="Ali"} {print $1}'
+  586  echo Hello Dan | awk '{$2="Ali"} {print $2}'
+  587  echo Hello Dan | awk 'BEGIN {$2="Ali"} {print $2}'
+  588  echo Hello Dan
+  589  echo Hello Dan | awk 'BEGIN {$2="Ali"} {print $2}'
+  590  echo Hello Dan | awk 'BEGIN {$2="Ali"} {print $0}'
+  591  echo Hello Dan | awk '{$2="Ali"} END {print $0}'
+  592  echo Hello Dan | awk '{$2="Akshada"} {print $0}'
+  593  echo Hello Dan | awk '{$2="Akshada"} END {print $0}'
+  594  echo Hello Dan | awk 'END {$2="Akshada"} {print $0}'
+  595  echo Hello Dan | awk 'BEGIN {$2="Akshada"} END {print $0}'
+  606  cat data.csv
+  607  cat data.csv | grep -i captain
+  608  cat data.csv
+  609  cat data.csv | grep -i captain | awk '{print $2 $4}'
+  610  cat data.csv | grep -i executive | awk '{print $2 $4}'
+  611  cat data.csv | grep -i captain | awk '{sum+=$4} {print sum}'
+  612  cat data.csv | grep -i captain | awk '{sum+=$4} END {print sum}'
+  613  cat data.csv | grep -i captain | awk '{sum+=$4} END {print sum/NR}'
+https://classroom.google.com/w/NDY5Nzg0ODM1OTk3/t/all
