@@ -22,7 +22,7 @@ public class Main {
                     System.out.println("Employee is Present Part Time ");
                     empHrs = 4;
                     break;
-                default:
+                default :
             }
             totalEmpHrs = totalEmpHrs + empHrs;
         }
